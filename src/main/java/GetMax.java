@@ -17,6 +17,14 @@ public class GetMax {
             }
             counter++;
         }
+
+        /*
+         * for(int i = 1; i < arr.length; i++){
+         *     if(arr[i] > arrMax){
+         *         arrMax = arr[counter];
+         *     }
+         * }
+         */
         
         return arrMax;
     }
